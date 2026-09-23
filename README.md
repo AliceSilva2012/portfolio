@@ -42,17 +42,15 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
-```text
-├── img/                  # Imagens exibidas
-│   ├── pfp.jpeg
-│   ├── sobre.jpeg
-│   ├── projeto1.png
-│   ├── projeto2.png
-│   ├── projeto3.png
-│   └── projeto4.png
-├── index.html            # O coração da página
-├── ps2.mp4                # Vídeo de background da tela de PS2
-└── styles.css            # Toda a mágica do CSS e responsividade
-```
+```mermaid
+graph TD;
+    A[portfolio_web] --> B(index.html);
+    A --> C(styles.css);
+    A --> D(ps2.mp4);
+    A --> E[📁 img];
+    E --> F(pfp.jpeg);
+    E --> G(sobre.jpeg);
+    E --> H(projeto1.png);
+    E --> I(projeto2.png...);
