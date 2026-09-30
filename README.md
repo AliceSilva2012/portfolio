@@ -45,12 +45,19 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 ## 📂 Estrutura do Projeto
 
 ```mermaid
-graph TD;
-    A[portfolio_web] --> B(index.html);
-    A --> C(styles.css);
-    A --> D(ps2.mp4);
-    A --> E[📁 img];
-    E --> F(pfp.jpeg);
-    E --> G(sobre.jpeg);
-    E --> H(projeto1.png);
-    E --> I(projeto2.png...);
+graph TD
+    A[portfolio_web] --> B[index.html]
+    A --> C[styles.css]
+    A --> D[ps2.mp4]
+    A --> E[img/]
+    
+    E --> F[pfp.jpeg]
+    E --> G[sobre.jpeg]
+    E --> H[projeto1.png]
+    E --> I[projeto2.png]
+
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
+```
