@@ -38,7 +38,7 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 
 ## 🌎 Dá uma olhada em como ficou! 
 
-- **Acessar Portfólio:** [VEJA MEU PORTFÓLIO NO SEU NAVEGADOR!]
+- **Acessar Portfólio:** [VEJA MEU PORTFÓLIO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/portfolio/)
 
 ---
 
