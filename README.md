@@ -38,7 +38,7 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 
 ## 🌎 Dá uma olhada em como ficou! 
 
-- **Acessar Portfólio:** [VEJA MEU PORTFÓLIO NO SEU NAVEGADOR!](https://hubportfolio.netlify.app)
+- **Acessar Portfólio:** [VEJA MEU PORTFÓLIO NO SEU NAVEGADOR!]
 
 ---
 
