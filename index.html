@@ -16,6 +16,9 @@
                 <a href="#inicio" class="menu-link">Início</a>
             </li>
             <li>
+                <a href="#tecnologias" class="menu-link">Tecnologias</a>
+            </li>
+            <li>
                 <a href="#sobre" class="menu-link">Sobre</a>
             </li>
             <li>
@@ -31,6 +34,36 @@
         <h1>Alice Silva Pereira</h1>
         <p class="cabecalho-sub-titulo">Estudante de programação.</p>
     </main>
+    <section id="tecnologias" class="habilidades">
+        <h2 class="habilidades-titulo">Tecnologias e Habilidades</h2>
+        <p class="habilidades-sub-titulo">O que eu utilizo para construir meus projetos</p>
+        
+        <div class="habilidades-caixa">
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" class="habilidade-icone" />
+                <h3>HTML5</h3>
+                <p>Semântica e Estrutura</p>
+            </div>
+            
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" class="habilidade-icone" />
+                <h3>CSS3</h3>
+                <p>Grid, Flexbox e Animações</p>
+            </div>
+            
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" class="habilidade-icone" />
+                <h3>JavaScript</h3>
+                <p>DOM, Async/Await e APIs</p>
+            </div>
+            
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" class="habilidade-icone" />
+                <h3>Git & GitHub</h3>
+                <p>Versionamento de Código</p>
+            </div>
+        </div>
+    </section>
     <section id="sobre" class="sobre">
         <h2 class="sobre-titulo">Sobre mim</h2>
         <div class="sobre-caixa">
@@ -53,7 +86,7 @@
                 <img src="./img/projeto1.png" alt="Preview do PixelHub" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <h3 class="info-projetos">PixelHub</h3>
-                    <p class="info-projetos-descricao">O PixelHUB é uma página web em formato de catálogo de jogos, onde diversos títulos são exibidos por meio de cards gerados dinamicamente a partir de um array em JavaScript, apresentando informações como imagem, gênero, sinopse, avaliações e link para o site oficial. O projeto destaca conceitos de manipulação do DOM, organização de dados em objetos, responsividade e estilização inspirada na identidade visual de cada jogo.</p>
+                    <p class="info-projetos-descricao">O PixelHub é um catálogo web que exibe jogos através de cards gerados dinamicamente, apresentando imagens, sinopses, avaliações e links oficiais. Praticou-se manipulação do DOM, organização de dados em arrays de objetos, responsividade e estilização personalizada baseada na identidade visual de cada jogo.</p>
                     <p class="link-projetos">
                         <a href="https://pixelhhub.netlify.app/" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/pixelhub" target="_blank" rel="noopener noreferrer">Veja no GitHub!</a>
                     </p>
@@ -63,7 +96,7 @@
                 <img src="./img/projeto2.png" alt="Preview do SenseFire" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <h3 class="info-projetos">SenseFire</h3>
-                    <p class="info-projetos-descricao">O SenseFire é uma aplicação web institucional desenvolvida para apresentar um sistema IoT focado na prevenção e combate a incêndios florestais. A interface exibe o funcionamento e o fluxo de monitoramento dos sensores, a contextualização da solução tecnológica e relatórios em tempo real. O projeto se destaca pela construção de um layout adaptativo utilizando CSS Grid e Flexbox, media queries e interatividade com JavaScript.</p>
+                    <p class="info-projetos-descricao">O SenseFire é uma aplicação institucional criada para apresentar um sistema IoT de prevenção de incêndios florestais, exibindo monitoramento de sensores e relatórios em tempo real. O desenvolvimento focou na construção de layouts adaptativos utilizando CSS Grid, Flexbox, media queries e interatividade com JavaScript.</p>
                     <p class="link-projetos">
                         <a href="https://sensefire.netlify.app" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/projetoSTEAM" target="_blank" rel="noopener noreferrer">Veja no GitHub!</a>
                     </p>
@@ -73,7 +106,7 @@
                 <img src="./img/projeto4.png" alt="Preview do DeliveryHub" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <h3 class="info-projetos">DeliveryHub</h3>
-                    <p class="info-projetos-descricao">O DeliveryHUB é um projeto de desenvolvimento front-end que simula o site de uma hamburgueria delivery. O objetivo é oferecer uma interface moderna, funcional e intuitiva para apresentar a marca, exibir o cardápio e facilitar a realização de pedidos por meio da integração com o WhatsApp. O projeto foi desenvolvido com foco na aplicação de HTML e CSS semântico, navegação por seções e boa experiência do usuário.</p>
+                    <p class="info-projetos-descricao">O DeliveryHub simula o site de uma hamburgueria delivery com uma interface moderna para exibir o cardápio e facilitar a realização de pedidos integrados ao WhatsApp. O projeto priorizou o uso de HTML semântico, estruturação avançada com CSS, navegação fluida e excelente experiência do usuário.</p>
                     <p class="link-projetos">
                         <a href="https://deliveryhhub.netlify.app" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/deliveryhub" target="_blank" rel="noopener noreferrer">Veja no GitHub!</a>
                     </p>
@@ -86,6 +119,26 @@
                     <p class="info-projetos-descricao">A Pokédex é um projeto que permite pesquisar Pokémons por nome ou número, navegar sequencialmente por botões de anterior/próximo e exibir informações e sprites animados dinamicamente. Praticou-se manipulação de DOM, consumo de APIs com fetch, programação assíncrona (async/await), tratamento básico de erros e criação de uma interface responsiva inspirada nos jogos clássicos.</p>
                     <p class="link-projetos">
                         <a href="https://hubpokedex.netlify.app" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/pokedex" target="_blank" rel="noopener noreferrer">Ver no GitHub!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto5.png" alt="Preview da Previsão do Tempo" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Previsão do Tempo</h3>
+                    <p class="info-projetos-descricao">O Previsão do Tempo consulta condições climáticas em tempo real e utiliza Inteligência Artificial para sugerir vestimentas adequadas ao usuário. Praticou-se manipulação avançada do DOM, programação assíncrona (async/await) e consumo de múltiplas APIs (OpenWeatherMap e Groq) para criar uma experiência fluida e responsiva.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/previsao_tempo/" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/previsao_tempo" target="_blank" rel="noopener noreferrer">Ver no GitHub!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto6.png" alt="Preview da Previsão do Tempo" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Blog - Selibi 2026</h3>
+                    <p class="info-projetos-descricao">O Blog Selibi é um projeto literário desenvolvido para homenagear a escritora Thalita Rebouças, documentando sua jornada, principais obras e adaptações cinematográficas. O foco técnico foi em HTML5 semântico, layouts responsivos com CSS Grid/Flexbox e animações CSS puras (@keyframes) para construir carrosséis e efeitos interativos.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/selibi/" target="_blank" rel="noopener noreferrer">Teste no seu navegador!</a> | <a href="https://github.com/AliceSilva2012/selibi" target="_blank" rel="noopener noreferrer">Ver no GitHub!</a>
                     </p>
                 </div>
             </div>
@@ -105,6 +158,20 @@
             <button type="submit" class="botao-form">Enviar para WhatsApp</button>
         </form>
     </section>
+    <footer class="rodape">
+        <div class="rodape-grid">
+            <div class="rodape-creditos">
+                <h3 class="rodape-titulo">Desenvolvido por</h3>
+                <p class="rodape-texto">Alice Silva Pereira</p>
+            </div>
+            <div class="rodape-redes">
+                <h3 class="rodape-titulo">Fale comigo por outros meios</h3>
+                <ul>
+                    <li class="rodape-item"><a href="https://github.com/AliceSilva2012" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script>
         function enviarWhats(event) {
