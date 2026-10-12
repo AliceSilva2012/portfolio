@@ -323,3 +323,111 @@ h1 {
         grid-template-columns: 1fr;
     }
 } 
+
+.habilidades {
+    padding: 6rem 2rem;
+}
+
+.habilidades-titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--claro);
+    margin-bottom: 10px;
+}
+
+.habilidades-sub-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: var(--claro);
+}
+
+.habilidades-caixa {
+    display: grid;
+    /* Cria colunas automáticas de no mínimo 200px */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.habilidade-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    border-radius: 16px;
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: default;
+}
+
+.habilidade-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+    border-color: var(--primaria);
+}
+
+.habilidade-icone {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    /* Um pequeno filtro para o ícone não ficar tão opaco perto do vidro */
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
+}
+
+.habilidade-card h3 {
+    font-size: 1.2rem;
+    color: var(--primaria);
+    margin-bottom: 5px;
+}
+
+.habilidade-card p {
+    font-size: 0.9rem;
+    color: rgba(226, 232, 240, 0.8);
+}
+
+.rodape {
+    background: #111;
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+}
+
+.rodape-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.rodape-creditos, .rodape-redes {
+    text-align: center;
+    color: rgb(105, 103, 103);
+    font-size: 0.9rem;
+}
+
+.rodape-texto, .rodape-item {
+    font-size: 1.1rem;
+    color: rgb(105, 103, 103);
+}
+
+.rodape-redes ul {
+    list-style: none;
+}
+
+.rodape-redes a {
+    margin: 5px;
+    color: rgb(105, 103, 103);
+    transition: color 0.3s ease;
+}
+
+.rodape-redes a:hover {
+    color: var(--secundaria);
+}
+
+.rodape-titulo {
+    font-size: 1.2rem;
+    color: rgb(105, 103, 103);
+    margin-bottom: 10px;
+}
