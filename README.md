@@ -58,6 +58,8 @@ Para visualizar o portfólio diretamente na sua máquina, siga os passos abaixo.
    git clone https://github.com/AliceSilva2012/portfolio.git
    ```
 
+
+
 ---
 
 ## 📂 Estrutura do Projeto
