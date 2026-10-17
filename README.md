@@ -58,8 +58,14 @@ Para visualizar o portfólio diretamente na sua máquina, siga os passos abaixo.
    git clone https://github.com/AliceSilva2012/portfolio.git
    ```
 
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd portfolio
+   ```
 
-
+3. **Execute a aplicação:**
+   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
 ---
 
 ## 📂 Estrutura do Projeto
