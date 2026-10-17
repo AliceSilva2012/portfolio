@@ -72,7 +72,7 @@ Para visualizar o portfólio diretamente na sua máquina, siga os passos abaixo.
 
 ```mermaid
 graph TD
-    A[portfolio_web] --> B[index.html]
+    A[portfolio] --> B[index.html]
     A --> C[styles.css]
     A --> D[ps2.mp4]
     A --> E[img/]
