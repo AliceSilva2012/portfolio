@@ -42,6 +42,24 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 
 ---
 
+## 🚀 Como Executar o Projeto Localmente
+
+Para visualizar o portfólio diretamente na sua máquina, siga os passos abaixo.
+
+### Pré-requisitos
+- Um navegador web moderno (Google Chrome, Firefox, Edge, etc.).
+- [Git](https://git-scm.com) instalado na máquina.
+- Um editor de código, como o [VS Code](https://code.visualstudio.com/) (opcional).
+
+### ☕ Passo a Passo
+
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/AliceSilva2012/portfolio.git
+   ```
+
+---
+
 ## 📂 Estrutura do Projeto
 
 ```mermaid
