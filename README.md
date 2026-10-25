@@ -76,7 +76,6 @@ graph TD
     A --> C[styles.css]
     A --> D[ps2.mp4]
     A --> E[img/]
-    
     E --> F[pfp.jpeg]
     E --> G[sobre.jpeg]
     E --> H[projeto1.png]
@@ -86,4 +85,4 @@ graph TD
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
     style D fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
     style E fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
-```
+``` 
