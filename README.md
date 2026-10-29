@@ -78,8 +78,8 @@ graph TD
     A --> C[styles.css]
     A --> D[ps2.mp4]
     A --> E[img/]
-    E --> F[pfp.jpeg]
-    E --> G[sobre.jpeg]
+    E --> F[pfp.png]
+    E --> G[sobre.png]
     E --> H[projeto1.png]
     E --> I[projeto2.png]
 
