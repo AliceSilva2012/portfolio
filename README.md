@@ -12,7 +12,7 @@
 
 ## 💻 Sobre o Portfólio
 
-Esse é o repositório do meu **Portfólio Web**, que funciona basicamente como meu Hub próprio e currículo interativo. O objetivo principal é compartilhar um pouco sobre quem eu sou, as tecnologias que uso e mostrar meus projetos em um só lugar.
+Esse é o repositório do meu **Portfólio Web**, que funciona basicamente como meu Hub próprio e mais tarde currículo interativo. O objetivo principal é compartilhar um pouco sobre quem eu sou, as tecnologias que uso e mostrar meus projetos em um só lugar.
 
 A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico (com a animação da tela inicial do PS2), direto ao ponto e com foco em uma experiência legal para o usuário.
 
