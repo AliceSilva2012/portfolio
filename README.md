@@ -21,7 +21,7 @@ A ideia foi montar um espaço com a minha cara: um design moderno e nostálgico 
 ## ⚙️ Funcionalidades
 
 - **Design Responsivo:** Layout que se adapta perfeitamente, seja no celular, tablet ou monitor ultrawide (PC).
-- **Vitrine de Projetos:** Uma galeria com meus projetos (com um adicional de que o próprio usuário pode testar qualquer projeto no próprio navegador!).
+- **Vitrine de Projetos:** Uma galeria com meus projetos (com um adicional de que o próprio usuário pode testar qualquer projeto front-end no próprio navegador, enquanto aos projetos back-end, o encaminhamento e o passo a passo estão no repositório). 
 - **Radar de Habilidades:** Um resumo das tecnologias que uso nos meus projetos, passando por desenvolvimento, qualidade e automação.
 - **Navegação Suave:** Aquele *smooth scroll* bacana entre as seções para deixar a navegação mais fluida.
 
