@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <video autoplay muted loop id="ps2-bg"><source src="ps2.mp4" type="video/mp4"></video>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#tecnologias" class="menu-link">Tecnologias</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+        <img src="./img/pfp.jpeg" alt="Foto de perfil de Alice Silva" class="foto-perfil">
+        <h1>Alice Silva Pereira</h1>
+        <p class="cabecalho-sub-titulo">Estudante de programação.</p>
+    </main>
+    <section id="tecnologias" class="habilidades">
+        <h2 class="habilidades-titulo">Tecnologias e Habilidades</h2>
+        <p class="habilidades-sub-titulo">O que estou aprendendo e utilizo para construir meus projetos</p>
+        
+        <div class="habilidades-caixa">
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" class="habilidade-icone" />
+                <h3>HTML5</h3>
+                <p>Semântica e Estrutura</p>
+            </div>
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" class="habilidade-icone" />
+                <h3>CSS3</h3>
+                <p>Flexbox, Grid & Keyframes</p>
+            </div>
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" class="habilidade-icone" />
+                <h3>JavaScript</h3>
+                <p>DOM, Async/Await e APIs</p>
+            </div>
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" class="habilidade-icone" />
+                <h3>Git & GitHub</h3>
+                <p>Versionamento de Código</p>
+            </div>
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" class="habilidade-icone" />
+                <h3>GitHub Actions</h3>
+                <p>Automação de CI & Testes</p>
+            </div>
+            <div class="habilidade-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" class="habilidade-icone" />
+                <h3>Node.js</h3>
+                <p>Ambiente Back-end e APIs</p>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Meu nome é Alice Silva Pereira. Sou estudante de desenvolvimento de software focada no ecossistema JavaScript. Construo interfaces modernas e dinâmicas no Front-End, além de explorar a criação de APIs, aplicações CLI via linha de comando em Node.js e esteiras de testes automatizados.</p>
+        </div>
+        <h2 class="sobre-titulo">Minha Jornada</h2>
+        <div class="sobre-caixa sobre-caixa-grid">
+            <img class="sobre-imagem" src="./img/sobre.png" alt="Foto sobre minha jornada">
+            <div class="sobre-conteudo-texto">
+                <p class="sobre-paragrafo">Minha trajetória começou com a construção de sites focados em HTML semântico, CSS e manipulação de DOM. Conforme avancei nos estudos, passei a conectar minhas aplicações a APIs externas (como a iTunes Search API e OpenWeatherMap) e a integrar modelos de Inteligência Artificial via Groq API.</p>
+                <p class="sobre-paragrafo">Hoje, estou expandindo meus conhecimentos em Back-End com Node.js, aplicando Orientação a Objetos e estruturando pipelines de CI/CD via GitHub Actions para garantir a qualidade, versionamento e execução automatizada dos meus testes de código.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Projetos em Destaque</h2>
+        <p class="projetos-sub-titulo">Meus projetos e aplicações em cena!</p>
+        
+        <div class="projetos-caixa">
+                <div class="projetos-card">
+                <img src="./img/projeto1.png" alt="Preview do PixelHub" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End</span>
+                    <h3 class="info-projetos">PixelHub</h3>
+                    <p class="info-projetos-descricao">Catálogo web de jogos com renderização dinâmica de cards a partir de arrays de objetos em JavaScript. Inclui sinopses, avaliações e visual estilizado de acordo com a identidade visual dos jogos.</p>
+                    <p class="link-projetos">
+                        <a href="https://pixelhhub.netlify.app/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/pixelhub" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto2.png" alt="Preview do SenseFire" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Web & IoT</span>
+                    <h3 class="info-projetos">SenseFire</h3>
+                    <p class="info-projetos-descricao">Aplicação institucional para apresentação de sistema IoT focado na prevenção de incêndios florestais. Layout adaptativo construído com CSS Grid, Flexbox e interatividade com JavaScript.</p>
+                    <p class="link-projetos">
+                        <a href="https://sensefire.netlify.app" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/projetoSTEAM" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto3.png" alt="Preview da Pokédex" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End & API</span>
+                    <h3 class="info-projetos">Pokédex Web</h3>
+                    <p class="info-projetos-descricao">Aplicação interativa para busca de Pokémons por nome/ID e navegação por botões. Explora consumo de API REST via `fetch`, manipulação do DOM e tratamento de erros de consulta.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/pokedex" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto4.png" alt="Preview do DeliveryHub" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End</span>
+                    <h3 class="info-projetos">DeliveryHub</h3>
+                    <p class="info-projetos-descricao">Simulação de e-commerce de hamburgueria delivery com navegação interativa pelo cardápio e checkout rápido com integração para envio de pedidos via WhatsApp.</p>
+                    <p class="link-projetos">
+                        <a href="https://deliveryhhub.netlify.app" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/deliveryhub" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto5.png" alt="Preview da Previsão do Tempo com IA" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-ia">IA & REST APIs</span>
+                    <h3 class="info-projetos">Previsão do Tempo + IA</h3>
+                    <p class="info-projetos-descricao">Consulta condições climáticas em tempo real e consome a API de Inteligência Artificial da Groq para gerar sugestões personalizadas de vestuário. Praticou-se consumo assíncrono de múltiplas APIs (OpenWeatherMap e Groq) e manipulação dinâmica de DOM.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/previsao_tempo/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/previsao_tempo" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto6.png" alt="Preview do Blog Selibi 2026" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End & CSS</span>
+                    <h3 class="info-projetos">Blog Selibi</h3>
+                    <p class="info-projetos-descricao">Blog literário desenvolvido para homenagear a escritora Thalita Rebouças. Foco em HTML5 semântico, layouts adaptativos com CSS Grid/Flexbox e carrosséis com animações CSS puras (@keyframes).</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/selibi/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/selibi" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto7.png" alt="Preview da aplicação Conversa com Terminal em Node.js" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-backend">Back-End & CI/CD</span>
+                    <h3 class="info-projetos">Conversa com Terminal</h3>
+                    <p class="info-projetos-descricao">Aplicação interativa via linha de comando (CLI) em Node.js aplicando Orientação a Objetos. Possui modularização de classes, validação de entradas e pipeline de Integração Contínua (CI) automatizado via GitHub Actions para validação de builds e testes.</p>
+                    <p class="link-projetos">
+                        <a href="https://github.com/AliceSilva2012/teste_node-js/actions" target="_blank" rel="noopener noreferrer" style="color: #2088FF; font-weight: bold;">Status do CI no GitHub Actions</a> | 
+                        <a href="https://github.com/AliceSilva2012/teste_node-js" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto8.png" alt="Preview da aplicação Spotify Web" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End & API</span>
+                    <h3 class="info-projetos">Spotify Web</h3>
+                    <p class="info-projetos-descricao">Interface responsiva inspirada no Spotify. Consome a iTunes Search API via Fetch/Async-Await para busca de faixas em tempo real, renderização de álbuns e tocador interativo com prévia de áudio instantânea.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/spotify/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/spotify" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto9.png" alt="Preview do projeto Omnitrix Web" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End Interativo</span>
+                    <h3 class="info-projetos">Omnitrix Web</h3>
+                    <p class="info-projetos-descricao">Aplicação interativa inspirada no relógio do Ben 10. Desenvolvida em JavaScript Vanilla, utiliza manipulação do DOM e animações CSS para criar efeitos holográficos e alternar dinamicamente a projeção dos alienígenas a cada clique.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/ominitrix/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/ominitrix" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./img/projeto10.png" alt="Preview do Assistente Virtual J.A.R.V.I.S." class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-fullstack">Full-Stack & IA</span>
+                    <h3 class="info-projetos">J.A.R.V.I.S.</h3>
+                    <p class="info-projetos-descricao">Assistente virtual interativo inspirada no J.A.R.V.I.S. Integrado ao servidor Node.js/Express com o modelo Llama 3.2 via OpenRouter API. Utiliza Web Speech API para reconhecimento e síntese de voz (TTS) em tempo real, injeção dinâmica de data/hora e interface futurista.</p>
+                    <p class="link-projetos">
+                        <span style="color: #2088FF; font-weight: bold;">Full-Stack / Node.js Local</span> | 
+                        <a href="https://github.com/AliceSilva2012/agente-ia" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+</div>
+        </div>
+    </section>      
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <p class="contatos-sub-titulo">Entre em contato via WhatsApp.</p>
+        
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input type="text" placeholder="Seu Nome" class="campo-form" id="nome" required>
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem aqui..." id="menssagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar para WhatsApp</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <div class="rodape-grid">
+            <div class="rodape-creditos">
+                <h3 class="rodape-titulo">Desenvolvido por</h3>
+                <p class="rodape-texto">Alice Silva Pereira</p>
+            </div>
+            <div class="rodape-redes">
+                <h3 class="rodape-titulo">Fale comigo por outros meios</h3>
+                <ul>
+                    <li class="rodape-item"><a href="https://github.com/AliceSilva2012" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function enviarWhats(event) {
+            event.preventDefault();
+            const nome = document.getElementById("nome").value;
+            const menssagem = document.getElementById("menssagem").value;
+            const telefone = '5511917953772';
+
+            const texto = `Olá! Meu nome é ${nome}. ${menssagem}`;
+            const menssagemFormatada = encodeURIComponent(texto);
+            const url = `https://wa.me/${telefone}?text=${menssagemFormatada}`;
+
+            window.open(url, '_blank'); 
+        }
+    </script>
+</body>
+</html>

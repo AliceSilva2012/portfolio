@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primaria: #4f46e5;
+    --secundaria: #7c3aed;
+    --escuro: #0f172a;
+    --maisEscuro: #0a0f10;
+    --claro: #e2e8f0;
+    --vidro: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    color: var(--claro);
+}
+
+.navegacao {
+    position: fixed;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--claro);
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.menu-link::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+    transition: width 0.3s ease;   
+}
+
+.menu-link:hover::after {
+    width: 100%;
+}
+
+.foto-perfil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
+    border-radius: 50%;
+    border: 4px solid var(--vidro);
+    margin-bottom: 1rem;
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+section {
+    background: transparent !important;
+}
+
+.cabecalho {
+    background: transparent !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--primaria);
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 2rem;
+}
+
+.cabecalho-sub-titulo {
+    font-size: 1.5rem;
+    color: var(--claro);
+}
+
+.sobre {
+    padding: 6rem 2rem;
+}
+
+.sobre-titulo {
+    font-size: 3rem;
+    color: var(--claro);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-caixa {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sobre-paragrafo {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.sobre-caixa-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.sobre-imagem {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.projetos {
+    padding: 6rem 0.5rem;
+}
+
+.projetos-caixa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1.5rem;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.projetos-imagem {
+    height: 235px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.projetos-titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.projetos-sub-titulo {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.projetos-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.projetos-card:hover {
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.6);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.info-projetos-descricao {
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+    font-weight: 400;   
+    margin-bottom: 8px;
+}
+
+.link-projetos a {
+    color: var(--primaria);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-projetos a:hover {
+    text-decoration: underline;
+}
+
+.caixa-textos-projeto {
+    padding: 1.5rem;
+}
+
+.info-projetos {
+    margin-bottom: 5px;
+}
+
+.paragrafo-projetos {
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+}
+
+.contatos {
+    padding: 6rem 2rem;
+}
+
+.contatos-titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contatos-sub-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.formulario-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid var(--vidro);
+    border-radius: 16px;
+}
+
+.campo-form {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--vidro);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--claro);
+    outline: none;
+}
+
+.campo-form:focus {
+    border-color: var(--secundaria);
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
+}
+
+.grupo-form {
+    margin-bottom: 1.5rem;
+}
+
+.botao-form {
+    color: var(--claro);
+    background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    width: 100%;
+}
+
+.botao-form:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+#ps2-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .sobre-paragrafo {
+        font-size: 1rem;
+    }
+
+    .sobre-caixa-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cabecalho {
+        padding: 2rem;
+    }
+
+    .projetos-caixa {
+        grid-template-columns: 1fr;
+    }
+} 
+
+.habilidades {
+    padding: 6rem 2rem;
+}
+
+.habilidades-titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--claro);
+    margin-bottom: 10px;
+}
+
+.habilidades-sub-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: var(--claro);
+}
+
+.habilidades-caixa {
+    display: grid;
+    /* Cria colunas automáticas de no mínimo 200px */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.habilidade-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    border-radius: 16px;
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: default;
+}
+
+.habilidade-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+    border-color: var(--primaria);
+}
+
+.habilidade-icone {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    /* Um pequeno filtro para o ícone não ficar tão opaco perto do vidro */
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
+}
+
+.habilidade-card h3 {
+    font-size: 1.2rem;
+    color: var(--primaria);
+    margin-bottom: 5px;
+}
+
+.habilidade-card p {
+    font-size: 0.9rem;
+    color: rgba(226, 232, 240, 0.8);
+}
+
+.rodape {
+    background: #111;
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+}
+
+.rodape-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.rodape-creditos, .rodape-redes {
+    text-align: center;
+    color: rgb(105, 103, 103);
+    font-size: 0.9rem;
+}
+
+.rodape-texto, .rodape-item {
+    font-size: 1.1rem;
+    color: rgb(105, 103, 103);
+}
+
+.rodape-redes ul {
+    list-style: none;
+}
+
+.rodape-redes a {
+    margin: 5px;
+    color: rgb(105, 103, 103);
+    transition: color 0.3s ease;
+}
+
+.rodape-redes a:hover {
+    color: var(--secundaria);
+}
+
+.rodape-titulo {
+    font-size: 1.2rem;
+    color: rgb(105, 103, 103);
+    margin-bottom: 10px;
+}
+
+/* Tags de Categorias dos Projetos */
+.tag-categoria {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tag-backend {
+    background-color: #2088FF;
+    color: #ffffff;
+}
+
+.tag-ia {
+    background-color: #8a2be2;
+    color: #ffffff;
+}
+
+.tag-frontend {
+    background-color: #e34f26;
+    color: #ffffff;
+}
+
+.tag-fullstack {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
