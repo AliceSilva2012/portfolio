@@ -97,6 +97,8 @@ h1 {
 .cabecalho-sub-titulo {
     font-size: 1.5rem;
     color: var(--claro);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .sobre {
@@ -292,14 +294,22 @@ h1 {
     }
 }
 
+
+body {
+    background-color: #0d0d11; 
+    color: #ffffff;
+}
+
 #ps2-bg {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
     object-fit: cover;
-    z-index: -1;
 }
 
 @media screen and (max-width: 768px) {
