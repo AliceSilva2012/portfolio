@@ -32,7 +32,7 @@
     <main id="inicio" class="cabecalho">
         <img src="./img/pfp.jpeg" alt="Foto de perfil de Alice Silva" class="foto-perfil">
         <h1>Alice Silva Pereira</h1>
-        <p class="cabecalho-sub-titulo">Estudante de programação.</p>
+        <p class="cabecalho-sub-titulo">Desenvolvedora Web & Estudante Full-Stack</p>
     </main>
     <section id="tecnologias" class="habilidades">
         <h2 class="habilidades-titulo">Tecnologias e Habilidades</h2>
@@ -88,81 +88,28 @@
     <section id="projetos" class="projetos">
         <h2 class="projetos-titulo">Projetos em Destaque</h2>
         <p class="projetos-sub-titulo">Meus projetos e aplicações em cena!</p>
+
+        <!-- Botao de Filtro -->
+        <div class="filtros-projetos">
+            <button class="btn-filtro ativo" onclick="filtrarProjetos('todos', this)">Todos</button>
+            <button class="btn-filtro" onclick="filtrarProjetos('fullstack', this)">Full-Stack & IA</button>
+            <button class="btn-filtro" onclick="filtrarProjetos('backend', this)">Back-End & CI/CD</button>
+            <button class="btn-filtro" onclick="filtrarProjetos('frontend', this)">Front-End</button></div>
         
         <div class="projetos-caixa">
-                <div class="projetos-card">
-                <img src="./img/projeto1.png" alt="Preview do PixelHub" class="projetos-imagem">
+            <div class="projetos-card" data-category="fullstack">
+                <img src="./img/projeto10.png" alt="Preview do Assistente Virtual J.A.R.V.I.S." class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-frontend">Front-End</span>
-                    <h3 class="info-projetos">PixelHub</h3>
-                    <p class="info-projetos-descricao">Catálogo web de jogos com renderização dinâmica de cards a partir de arrays de objetos em JavaScript. Inclui sinopses, avaliações e visual estilizado de acordo com a identidade visual dos jogos.</p>
+                    <span class="tag-categoria tag-fullstack">Full-Stack & IA</span>
+                    <h3 class="info-projetos">J.A.R.V.I.S.</h3>
+                    <p class="info-projetos-descricao">Assistente virtual interativo inspirado no J.A.R.V.I.S. Integrado ao servidor Node.js/Express com o modelo Llama 3.2 via OpenRouter API. Utiliza Web Speech API para reconhecimento e síntese de voz (TTS) em tempo real, injeção dinâmica de data/hora e interface futurista.</p>
                     <p class="link-projetos">
-                        <a href="https://pixelhhub.netlify.app/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
-                        <a href="https://github.com/AliceSilva2012/pixelhub" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                        <span style="color: #6566F1; font-weight: bold;">Full-Stack / Node.js Local</span> | 
+                        <a href="https://github.com/AliceSilva2012/agente-ia" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                     </p>
                 </div>
             </div>
-            <div class="projetos-card">
-                <img src="./img/projeto2.png" alt="Preview do SenseFire" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-frontend">Web & IoT</span>
-                    <h3 class="info-projetos">SenseFire</h3>
-                    <p class="info-projetos-descricao">Aplicação institucional para apresentação de sistema IoT focado na prevenção de incêndios florestais. Layout adaptativo construído com CSS Grid, Flexbox e interatividade com JavaScript.</p>
-                    <p class="link-projetos">
-                        <a href="https://sensefire.netlify.app" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
-                        <a href="https://github.com/AliceSilva2012/projetoSTEAM" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
-                    </p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="./img/projeto3.png" alt="Preview da Pokédex" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-frontend">Front-End & API</span>
-                    <h3 class="info-projetos">Pokédex Web</h3>
-                    <p class="info-projetos-descricao">Aplicação interativa para busca de Pokémons por nome/ID e navegação por botões. Explora consumo de API REST via `fetch`, manipulação do DOM e tratamento de erros de consulta.</p>
-                    <p class="link-projetos">
-                        <a href="https://alicesilva2012.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
-                        <a href="https://github.com/AliceSilva2012/pokedex" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
-                    </p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="./img/projeto4.png" alt="Preview do DeliveryHub" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-frontend">Front-End</span>
-                    <h3 class="info-projetos">DeliveryHub</h3>
-                    <p class="info-projetos-descricao">Simulação de e-commerce de hamburgueria delivery com navegação interativa pelo cardápio e checkout rápido com integração para envio de pedidos via WhatsApp.</p>
-                    <p class="link-projetos">
-                        <a href="https://deliveryhhub.netlify.app" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
-                        <a href="https://github.com/AliceSilva2012/deliveryhub" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
-                    </p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="./img/projeto5.png" alt="Preview da Previsão do Tempo com IA" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-ia">IA & REST APIs</span>
-                    <h3 class="info-projetos">Previsão do Tempo + IA</h3>
-                    <p class="info-projetos-descricao">Consulta condições climáticas em tempo real e consome a API de Inteligência Artificial da Groq para gerar sugestões personalizadas de vestuário. Praticou-se consumo assíncrono de múltiplas APIs (OpenWeatherMap e Groq) e manipulação dinâmica de DOM.</p>
-                    <p class="link-projetos">
-                        <a href="https://alicesilva2012.github.io/previsao_tempo/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
-                        <a href="https://github.com/AliceSilva2012/previsao_tempo" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
-                    </p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="./img/projeto6.png" alt="Preview do Blog Selibi 2026" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-frontend">Front-End & CSS</span>
-                    <h3 class="info-projetos">Blog Selibi</h3>
-                    <p class="info-projetos-descricao">Blog literário desenvolvido para homenagear a escritora Thalita Rebouças. Foco em HTML5 semântico, layouts adaptativos com CSS Grid/Flexbox e carrosséis com animações CSS puras (@keyframes).</p>
-                    <p class="link-projetos">
-                        <a href="https://alicesilva2012.github.io/selibi/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
-                        <a href="https://github.com/AliceSilva2012/selibi" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
-                    </p>
-                </div>
-            </div>
-            <div class="projetos-card">
+            <div class="projetos-card" data-category="backend">
                 <img src="./img/projeto7.png" alt="Preview da aplicação Conversa com Terminal em Node.js" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <span class="tag-categoria tag-backend">Back-End & CI/CD</span>
@@ -174,7 +121,19 @@
                     </p>
                 </div>
             </div>
-            <div class="projetos-card">
+            <div class="projetos-card" data-category="fullstack">
+                <img src="./img/projeto5.png" alt="Preview da Previsão do Tempo com IA" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-ia">IA & REST APIs</span>
+                    <h3 class="info-projetos">Previsão do Tempo</h3>
+                    <p class="info-projetos-descricao">Consulta condições climáticas em tempo real e consome a API de Inteligência Artificial da Groq para gerar sugestões personalizadas de vestuário. Praticou-se consumo assíncrono de múltiplas APIs (OpenWeatherMap e Groq) e manipulação dinâmica de DOM.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/previsao_tempo/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/previsao_tempo" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card" data-category="frontend">
                 <img src="./img/projeto8.png" alt="Preview da aplicação Spotify Web" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <span class="tag-categoria tag-frontend">Front-End & API</span>
@@ -186,7 +145,67 @@
                     </p>
                 </div>
             </div>
-            <div class="projetos-card">
+            <div class="projetos-card" data-category="frontend">
+                <img src="./img/projeto1.png" alt="Preview do PixelHub" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End</span>
+                    <h3 class="info-projetos">PixelHub</h3>
+                    <p class="info-projetos-descricao">Catálogo web de jogos com renderização dinâmica de cards a partir de arrays de objetos em JavaScript. Inclui sinopses, avaliações e visual estilizado de acordo com a identidade visual dos jogos.</p>
+                    <p class="link-projetos">
+                        <a href="https://pixelhhub.netlify.app/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/pixelhub" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card" data-category="frontend">
+                <img src="./img/projeto2.png" alt="Preview do SenseFire" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Web & IoT</span>
+                    <h3 class="info-projetos">SenseFire</h3>
+                    <p class="info-projetos-descricao">Aplicação institucional para apresentação de sistema IoT focado na prevenção de incêndios florestais. Layout adaptativo construído com CSS Grid, Flexbox e interatividade com JavaScript.</p>
+                    <p class="link-projetos">
+                        <a href="https://sensefire.netlify.app" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/projetoSTEAM" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card" data-category="frontend">
+                <img src="./img/projeto3.png" alt="Preview da Pokédex" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End & API</span>
+                    <h3 class="info-projetos">Pokédex Web</h3>
+                    <p class="info-projetos-descricao">Aplicação interativa para busca de Pokémons por nome/ID e navegação por botões. Explora consumo de API REST via `fetch`, manipulação do DOM e tratamento de erros de consulta.</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/pokedex" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card" data-category="frontend">
+                <img src="./img/projeto4.png" alt="Preview do DeliveryHub" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End</span>
+                    <h3 class="info-projetos">DeliveryHub</h3>
+                    <p class="info-projetos-descricao">Simulação de e-commerce de hamburgueria delivery com navegação interativa pelo cardápio e checkout rápido com integração para envio de pedidos via WhatsApp.</p>
+                    <p class="link-projetos">
+                        <a href="https://deliveryhhub.netlify.app" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/deliveryhub" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card" data-category="frontend">
+                <img src="./img/projeto6.png" alt="Preview do Blog Selibi 2026" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <span class="tag-categoria tag-frontend">Front-End & CSS</span>
+                    <h3 class="info-projetos">Blog Selibi</h3>
+                    <p class="info-projetos-descricao">Blog literário desenvolvido para homenagear a escritora Thalita Rebouças. Foco em HTML5 semântico, layouts adaptativos com CSS Grid/Flexbox e carrosséis com animações CSS puras (@keyframes).</p>
+                    <p class="link-projetos">
+                        <a href="https://alicesilva2012.github.io/selibi/" target="_blank" rel="noopener noreferrer">Teste no Navegador</a> | 
+                        <a href="https://github.com/AliceSilva2012/selibi" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card" data-category="frontend">
                 <img src="./img/projeto9.png" alt="Preview do projeto Omnitrix Web" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <span class="tag-categoria tag-frontend">Front-End Interativo</span>
@@ -198,19 +217,7 @@
                     </p>
                 </div>
             </div>
-            <div class="projetos-card">
-                <img src="./img/projeto10.png" alt="Preview do Assistente Virtual J.A.R.V.I.S." class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <span class="tag-categoria tag-fullstack">Full-Stack & IA</span>
-                    <h3 class="info-projetos">J.A.R.V.I.S.</h3>
-                    <p class="info-projetos-descricao">Assistente virtual interativo inspirada no J.A.R.V.I.S. Integrado ao servidor Node.js/Express com o modelo Llama 3.2 via OpenRouter API. Utiliza Web Speech API para reconhecimento e síntese de voz (TTS) em tempo real, injeção dinâmica de data/hora e interface futurista.</p>
-                    <p class="link-projetos">
-                        <span style="color: #2088FF; font-weight: bold;">Full-Stack / Node.js Local</span> | 
-                        <a href="https://github.com/AliceSilva2012/agente-ia" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
-                    </p>
-                </div>
-            </div>
-</div>
+        </div>
         </div>
     </section>      
     <section id="contatos" class="contatos">
@@ -254,6 +261,24 @@
             const url = `https://wa.me/${telefone}?text=${menssagemFormatada}`;
 
             window.open(url, '_blank'); 
+        }
+
+        function filtrarProjetos(categoria, elemento) {
+            const botoes = document.querySelectorAll('.btn-filtro, .botao-filtro');
+            botoes.forEach(btn => btn.classList.remove('ativo')); //oposto de ativo = desativo
+            elemento.classList.add('ativo'); // Adiciona a classe "ativo" pro botão clicado
+            //============================================================
+            const cards = document.querySelectorAll('.projetos-card'); //o card todo do projeto (individualmente)
+            cards.forEach(card => { //pega e percorre todos os cards
+                const categoriaCard = card.getAttribute('data-category'); //pega a categoria do card (tipo/filtro) - corrigido para data-category
+                if (categoria === 'todos' || categoriaCard === categoria) { //pega a categoria do card e compara com a categoria clicada no botão
+                    card.style.display = '';
+                    card.classList.remove('escondido');
+                } else {
+                    card.style.display = 'none';
+                    card.classList.add('escondido'); //senao, nao mostra o card
+                }
+            });
         }
     </script>
 </body>

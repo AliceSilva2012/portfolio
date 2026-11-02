@@ -146,11 +146,17 @@ h1 {
 
 .projetos-caixa {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    /* Trocado auto-fit por auto-fill para os cards não esticarem quando houver só 1 ou 2 visíveis */
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     gap: 1.5rem;
     max-width: 1350px;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+/* Regra essencial para garantir que a classe 'escondido' oculte o card sem conflitos no grid */
+.projetos-card.escondido {
+    display: none !important;
 }
 
 .projetos-imagem {
@@ -215,7 +221,6 @@ h1 {
     color: rgba(226, 232, 240, 0.8);
     line-height: 1.25rem;
 }
-
 .contatos {
     padding: 6rem 2rem;
 }
@@ -344,7 +349,6 @@ h1 {
 
 .habilidades-caixa {
     display: grid;
-    /* Cria colunas automáticas de no mínimo 200px */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     max-width: 1000px;
@@ -372,7 +376,7 @@ h1 {
     width: 60px;
     height: 60px;
     margin-bottom: 15px;
-    /* Um pequeno filtro para o ícone não ficar tão opaco perto do vidro */
+    /* Um pequeno "filtro" para o ícone não ficar tão opaco perto do vidro */
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
 }
 
@@ -462,4 +466,72 @@ h1 {
 .tag-fullstack {
     background-color: #4CAF50;
     color: #ffffff;
+}
+
+.filtros-projetos {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0 30px 0;
+    flex-wrap: wrap;
+}
+
+.btn-filtro {
+    background-color: transparent;
+    color: #ffffff;
+    border: var(--claro) 1px solid;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-filtro:hover {
+    background-color: var(--secundaria);
+    border: none;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.btn-filtro.ativo {
+    background-color: var(--secundaria);
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(51, 153, 51, 0.4);
+}
+/* Transição dos Cards */
+.projetos-card {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.projetos-card.escondido {
+    display: none !important;
+}
+
+.tag-categoria {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.tag-fullstack {
+     background-color: #6566F1; 
+     color: #fff; 
+}
+.tag-backend { 
+    background-color: #2088FF; 
+    color: #fff; 
+}
+.tag-ia { 
+    background-color: #8A2BE2; 
+    color: #fff; 
+}
+.tag-frontend { 
+    background-color: #E34F26; 
+    color: #fff; 
 }
