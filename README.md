@@ -23,7 +23,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 ## ⚙️ Funcionalidades
 
-- **Filtro Dinâmico de Projetos:** Permite filtrar a galeria em tempo real por categorias (*Todos*, *Full-Stack & IA*, *Back-End & CI/CD* e *Front-End*).
+- **Filtro Dinâmico de Projetos:** Permite filtrar a galeria em tempo real por categorias (*Todos*, *Full-Stack & IA*, *Back-End & CI/CD* e *Front-End*) para melhor navegação do usuário.
 - **Design Responsivo:** Layout adaptativo usando CSS Grid e Flexbox para celular, tablet e monitores ultrawide.
 - **Tags de Identificação:** Etiquetas coloridas destacando a stack e o foco de cada projeto.
 - **Contato Direto via WhatsApp:** Formulário de envio de mensagens integrado à API do WhatsApp.
