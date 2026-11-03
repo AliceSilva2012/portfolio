@@ -15,7 +15,7 @@
 
 ## 💻 Sobre o Portfólio
 
-Esse é o repositório do meu **Portfólio Web**, que funciona como meu Hub próprio e currículo interativo. O objetivo principal é compartilhar minha evolução técnica: desde a construção de interfaces puramente Front-End até o desenvolvimento **Full-Stack**, projetos com **Node.js**, consumo de APIs de IA e esteiras de testes automatizados com **CI/CD via GitHub Actions**.
+Esse é o repositório do meu **Portfólio Web**, que funciona como meu Hub próprio e currículo interativo. O objetivo principal é compartilhar minha evolução técnica: desde a construção de interfaces front-End até o desenvolvimento **Full-Stack** (+back-end), projetos com **Node.js**, consumo de APIs de IA e esteiras de testes automatizados com **CI/CD via GitHub Actions**.
 
 A página possui uma identidade visual única e nostálgica (com aquela animação de fundo da tela inicial do PS2), focada em proporcionar uma navegação fluida e agradável.
 
