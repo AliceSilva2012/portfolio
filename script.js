@@ -23,7 +23,7 @@ const comandos = {
     // EASTER EGGS DE NERDOLA SEM GRAÇA
     "nerdola sem graça": "AAAAAAAAAAAAAAAAAAAAAAAAAAA, não me pagam pra isso!",
     //  COMANDOS DE ESPERTINHO LITERAL
-    "easter egg": "Sério que você digitou literalmente 'easter egg'? Tenta de novo, nerdola sem graçaa...",
+    "easter egg": "Sério que você digitou literalmente 'easter egg'? Tenha criatividade, nerdola sem graça! TENTA DE OUTRA!",
     easteregg: "Sério mesmo? Nerdola sem graçaa... Achou que era fácil é? TENTA DE NOVO!",
     oi: "Olá ser humano! Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis."
 };
