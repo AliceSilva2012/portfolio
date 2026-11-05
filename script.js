@@ -5,11 +5,12 @@ const terminalBody = document.getElementById('terminal-body');
 
 // 2. Da as budega dos comandos pro terminal
 const comandos = {
-    help: "Comandos disponíveis: <strong>sobre</strong>, <strong>skills</strong>, <strong>projetos</strong>, <strong>github</strong>, <strong>clear</strong> <br> <strong style='color: #f83838;'>ATENÇÃO: easter eggs disponíveis, tente encontrar!</strong>",
-    sobre: "Alice Silva Pereira, 14 anos. Estudante Full-Stack focada no ecossistema JavaScript, Node.js e automações de testes com GitHub Actions.",
-    skills: "HTML5, CSS3, JavaScript (DOM/Async), Node.js, Git/GitHub, GitHub Actions e consumo de REST APIs.",
+    help: "Comandos disponíveis: <strong>sobre</strong>, <strong>skills</strong>, <strong>projetos</strong>, <strong>github</strong>, <strong>eastereggs</strong>, <strong>clear</strong> <br> <strong style='color: #f83838;'>ATENÇÃO: easter eggs disponíveis, tente encontrar!</strong>",
+    sobre: "Alice Silva Pereira, 14 anos. Estudante Full-Stack focada no ecossistema JavaScript, Node.js e automações de testes com GitHub Actions. <br> Inclusive, todos estão na seção de Projetos, se quiser dar uma olhada! <br> <strong style='color: #38bdf8;'>Dica: tente encontrar os easter eggs!</strong>",
+    skills: "HTML5, CSS3, JavaScript, Node.js, Git/GitHub, GitHub Actions e consumo de REST APIs.",
     projetos: "Alguns dos meus projetos mais recentes:<br>1. J.A.R.V.I.S. (IA & Voz)<br>2. Conversa com Terminal (CLI em Node.js)<br>3. Previsão do Tempo (API Groq)<br>4. Spotify Web (iTunes API)",
     github: 'Meu perfil: <a href="https://github.com/AliceSilva2012" target="_blank" style="color: #38bdf8;">github.com/AliceSilva2012</a>',
+    eastereggs: "Easter eggs disponíveis! Tente encontrar todos!",
     clear: "Terminal limpo! Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis.",
     404: "Achou que ia conseguir me bugar não é? Vai projcurar mais easter eggs.",
     // EASTER EGGS GALÁTICOS E INÉDITOS
@@ -23,8 +24,7 @@ const comandos = {
     // EASTER EGGS DE NERDOLA SEM GRAÇA
     "nerdola sem graça": "AAAAAAAAAAAAAAAAAAAAAAAAAAA, não me pagam pra isso!",
     //  COMANDOS DE ESPERTINHO LITERAL
-    "easter egg": "Sério que você digitou literalmente 'easter egg'? Tenha criatividade, nerdola sem graça! TENTA DE OUTRA!",
-    easteregg: "Sério mesmo? Nerdola sem graçaa... Achou que era fácil é? TENTA DE NOVO!",
+    "easter eggs": "Sério que você digitou literalmente 'easter egg'? Tenha criatividade, nerdola sem graça! TENTA DE OUTRA!",
     oi: "Olá ser humano! Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis."
 };
 
