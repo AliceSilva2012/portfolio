@@ -87,6 +87,24 @@
             </div>
         </div>
     </section>
+    <section id="terminal" class="terminal-container">
+    <div class="terminal-header">
+        <div class="terminal-botoes">
+            <span class="dot vermelho"></span>
+            <span class="dot amarelo"></span>
+            <span class="dot verde"></span>
+        </div>
+        <span class="terminal-titulo">alice@portfolio:~ (bash)</span>
+    </div>
+    <div class="terminal-body" id="terminal-body">
+        <p class="boas-vindas">Bem-vindo ao AliceOS! Digite <strong>'help'</strong> para começar.</p>
+        <div id="terminal-saida"></div>
+        <div class="terminal-linha-input">
+            <span class="prompt">alice@dev:~$</span>
+            <input type="text" id="terminal-input" placeholder="Digite um comando..." autocomplete="off">
+        </div>
+    </div>
+</section>
     <section id="projetos" class="projetos">
         <h2 class="projetos-titulo">Projetos em Destaque</h2>
         <p class="projetos-sub-titulo">Meus projetos e aplicações em cena!</p>
@@ -283,5 +301,6 @@
             });
         }
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

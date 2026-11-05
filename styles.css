@@ -545,3 +545,87 @@ body {
     background-color: #E34F26; 
     color: #fff; 
 }
+
+.terminal-container {
+    max-width: 800px;
+    margin: 40px auto; 
+    background: rgba(15, 15, 25, 0.92); 
+    border: 1px solid #334155; 
+    border-radius: 8px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+    font-family: 'Fira Code', 'Courier New', monospace; 
+    overflow: hidden; /*Pro conteudo internonao atravessar a borda*/
+}
+
+.terminal-header {
+    background: #1e293b;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.terminal-botoes { /* Container para os botões de controle */
+    display: flex; /*Alinha dos botões no eixo x*/
+    gap: 8px; /*SEPAAAARAAAAAAA*/
+}
+
+.dot { /*transforma aqueles span em círculos*/
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/*Dale cor*/
+.vermelho { background: #ff5f56; }
+.amarelo  { background: #ffbd2e; }
+.verde    { background: #27c93f; }
+
+/* Título centralizado na barra superior */
+.terminal-titulo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    left: 0;
+    pointer-events: none; /* Não interfere no clique */
+}
+
+.terminal-body {
+    padding: 20px;
+    color: #e2e8f0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-height: 350px;
+    overflow-y: auto; /*Serve pra quando o conteúdo for maior que a altura máxima, aparecer uma barra de rolagem*/
+}
+
+/*=====WELCOMEEEE=====*/
+.boas-vindas {
+    color: #94a3b8;
+    margin-bottom: 12px;
+}
+
+.terminal-linha-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.prompt { /*Pra ficar estiloso*/
+    color: #4ade80;
+    font-weight: bold;
+}
+
+/*PERSONALIIIIIZZAAAAAAAAA*/
+#terminal-input {
+    background: transparent;
+    border: none;
+    outline: none; /* Remove aquela borda azul padrao do input*/
+    color: #f8fafc;
+    font-family: inherit; /* Herda a fonte monospace do container*/
+    font-size: inherit;
+    width: 100%;
+}
