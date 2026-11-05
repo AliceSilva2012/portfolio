@@ -5,7 +5,6 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 
@@ -23,6 +22,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 ## ⚙️ Funcionalidades
 
+- **Mini Terminal Interativo (CLI Web):** Janela estilo linha de comando incorporada para executar comandos como `help`, `sobre`, `skills`, `projetos`, `github` e `limpar` via manipulação de DOM.
 - **Filtro Dinâmico de Projetos:** Permite filtrar a galeria em tempo real por categorias (*Todos*, *Full-Stack & IA*, *Back-End & CI/CD* e *Front-End*) para melhor navegação do usuário.
 - **Design Responsivo:** Layout adaptativo usando CSS Grid e Flexbox para celular, tablet e monitores ultrawide.
 - **Tags de Identificação:** Etiquetas coloridas destacando a stack e o foco de cada projeto.
@@ -39,6 +39,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
   - Animações e efeitos em *glassmorphism* (efeito de vidro).
 - **JavaScript (ES6+):**
   - Manipulação de DOM e filtragem dinâmica de elementos sem recarregar a página.
+  - Lógica de captura de eventos de teclado (`keydown`) e processamento de comandos para o Mini Terminal.
   - Formatação e redirecionamento de mensagens via API do WhatsApp.
 - **Versionamento & Ferramentas:** Git, GitHub, VS Code.
 
@@ -61,8 +62,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 1. **Clone este repositório:**
    ```bash
-   git clone https://github.com/AliceSilva2012/portfolio.git
-   ```
+   git clone [https://github.com/AliceSilva2012/portfolio.git](https://github.com/AliceSilva2012/portfolio.git)
 
 2. **Acesse a pasta do projeto:**
    ```bash
