@@ -81,14 +81,16 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 graph TD
     A[portfolio] --> B[index.html]
     A --> C[styles.css]
-    A --> D[ps2.mp4]
-    A --> E[img/]
-    E --> F[pfp.jpeg]
-    E --> G[sobre.png]
-    E --> H[projeto1.png... projeto10.png]
+    A --> D[script.js]
+    A --> E[ps2.mp4]
+    A --> F[img/]
+    F --> G[pfp.jpeg]
+    F --> H[sobre.png]
+    F --> I[projeto1.png... projeto10.png]
 
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
 ```
