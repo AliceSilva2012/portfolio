@@ -22,7 +22,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 ## ⚙️ Funcionalidades
 
-- **Mini Terminal Interativo (CLI Web):** Janela estilo linha de comando incorporada para executar comandos como `help`, `sobre`, `skills`, `projetos`, `github` e `limpar` via manipulação de DOM.
+- **Mini Terminal Interativo (CLI Web):** Janela estilo linha de comando incorporada para executar comandos como `help`, `sobre`, `skills`, `projetos`, `github` e `clear`(ou `limpar`, que faz referência ao comando 'clear' do terminal).
 - **Filtro Dinâmico de Projetos:** Permite filtrar a galeria em tempo real por categorias (*Todos*, *Full-Stack & IA*, *Back-End & CI/CD* e *Front-End*) para melhor navegação do usuário.
 - **Design Responsivo:** Layout adaptativo usando CSS Grid e Flexbox para celular, tablet e monitores ultrawide.
 - **Tags de Identificação:** Etiquetas coloridas destacando a stack e o foco de cada projeto.
