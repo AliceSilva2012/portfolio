@@ -50,7 +50,7 @@ const comandos = {
     "homem aranha": "🕷️ 'Com grandes poderes vêm grandes responsabilidades.'",
     "viuva negra": "Eu não tinha nada, e aí eu consegui esse emprego, essa família. Mas nada dura para sempre.",
     "gavião arqueiro": "A cidade está voando, estamos lutando contra um exército de robôs e eu tenho um arco e flecha. Nada disso faz sentido.",
-    pokemon: "🔴 'Um Pikachu selvagem apareceu! Ele usou Choque do Trovão no seu servidor! <br> Caramba, que tanto jogo, já viu algum filme dos Vingadores?'",
+    pokemon: "🔴 'Um Pikachu selvagem apareceu! Ele usou Choque do Trovão no seu servidor! <br> <span style='color: #efecec;'>Caramba, que tanto jogo, já viu algum filme dos Vingadores?</span>'",
     roblox: "AAÀAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, não me pagam pra isso!",
     code: "Easter egg encontrado! Você é um verdadeiro dev, parabéns! <br> Tente procurar mais easter eggs, tem muitos escondidos!",
     jesus: "✝️ 'Eu sou o caminho, a verdade e a vida'. <br> Boa, tem muito mais easter eggs escondidos, tente procurar mais!",
