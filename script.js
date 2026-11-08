@@ -38,7 +38,7 @@ const comandos = {
     xbox: "🎮 'Xbox? NOSTALGIC (não esquece do nintendinho)'",
     code: "Easter egg encontrado! Você é um verdadeiro dev, parabéns! <br> Tente procurar mais easter eggs, tem muitos escondidos!",
     minecraft: "⛏️ 'Cuidado com os Creepers! Não esquece do super mario world!'",
-    supermarioworld: "🍄 'Não esquece do super mario 64!'",
+    "super mario world": "🍄 'Não esquece do super mario 64!'",
     "super mario 64": "🍄 'Não esquece do sonic!'",
     sonic: "🦔 'Não esquece do tetris!'",
     tetris: "🧩 'Não esquece do pacman!'",
