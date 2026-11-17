@@ -14,9 +14,9 @@ const comandos = {
     skills: "HTML5, CSS3, JavaScript, Node.js, Git/GitHub, GitHub Actions e consumo de REST APIs.",
     projetos: "Alguns dos meus projetos mais recentes:<br>1. J.A.R.V.I.S. (IA & Voz)<br>2. Conversa com Terminal (CLI em Node.js)<br>3. Previsão do Tempo (API Groq)<br>4. Spotify Web (iTunes API).<br> Inclusive, todos estão na seção de Projetos, se quiser dar uma olhada! <br>  style='color: #38bdf8;'",
     github: 'Meu perfil: <a href="https://github.com/AliceSilva2012" target="_blank" style="color: #38bdf8;">github.com/AliceSilva2012</a>',
-    "easter egg": "Easter eggs disponíveis! Tente encontrar todos!",
+    "easter egg": "Achou que era só isso? Tente procurar mais easter eggs, tem muitos escondidos!",
     clear: "Terminal limpo! Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis.",
-    404: "Achou que ia conseguir me bugar não é? Vai projcurar mais easter eggs.",
+    404: "Achou que ia conseguir me bugar não é? <br> Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis.",
     // EASTER EGGS GALÁTICOS E INÉDITOS
     ps2: "🔊 WOOOOOOOOOOWWW (não esquece do PS3!)",
     ps3: "🎮 'Não esquece do PS4!'",
@@ -55,7 +55,7 @@ const comandos = {
     code: "Easter egg encontrado! Você é um verdadeiro dev, parabéns! <br> Tente procurar mais easter eggs, tem muitos escondidos!",
     jesus: "✝️ 'Eu sou o caminho, a verdade e a vida'. <br> Boa, tem muito mais easter eggs escondidos, tente procurar mais!",
     darthvader: "'Luke, eu sou seu pai.', <br> AAAAAAAAAAAAAAAA, plot twist!",
-    ola: "Olá, que formal! Está procurando easter eggs? Tenta de novo<br>Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis.",
+    ola: "Olá, que formal! Está procurando easter eggs? Tenta de novo<br>Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis. <br> Digite <strong style='color: #38bdf8;'>clear</strong> para o terminal voltar ao normal (se quiser).",
     alice: "EEEEEEEEUUUUU?!",
     matrix: "<span style='color: #00ff00;'>01000001 01001100 01001001 01000011 01000101 (Você encontrou a Matrix!)</span>",
     "easter egg": "Parabéns, você desbloqueou um easter egg! <br> Tente procurar mais, tem muitos escondidos!",
@@ -90,6 +90,13 @@ function processarComando(comando) {
     linhaComando.style.marginTop = '8px'; // Adiciona um espaço entre os comandos com o css (e sim, pode fazer isso no JS porque é uma div criada dinamicamente)
     linhaComando.innerHTML = `<span class="prompt">alice@dev:~$</span> ${comando}`;
     terminalSaida.appendChild(linhaComando); //appendChild adiciona a linha de comando digitada pelo usuário no terminal
+
+    // ---> COLOQUE O IF DA MATRIX AQUI <---
+    if (comando === 'matrix') {
+        terminalBody.style.backgroundColor = '#020617';
+        terminalBody.style.borderColor = '#00ff00';
+        terminalBody.style.boxShadow = '0 0 15px rgba(0, 255, 0, 0.4)';
+    }
 
     // Criar a linha da resposta
     const linhaResposta = document.createElement('div'); //cria uma nova div para a resposta do comando
