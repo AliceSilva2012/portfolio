@@ -62,7 +62,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/AliceSilva2012/portfolio.git](https://github.com/AliceSilva2012/portfolio.git)
+   git clone https://github.com/AliceSilva2012/portfolio.git
 
 2. **Acesse a pasta do projeto:**
    ```bash
