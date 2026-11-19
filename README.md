@@ -27,31 +27,6 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 ---
 
-## ⚙️ Funcionalidades
-
-- **Mini Terminal Interativo (CLI Web):** Janela estilo linha de comando incorporada para executar comandos como `help`, `sobre`, `skills`, `projetos`, `github` e `clear`(ou `limpar`, que faz referência ao comando 'clear' do terminal).
-- **Filtro Dinâmico de Projetos:** Permite filtrar a galeria em tempo real por categorias (*Todos*, *Full-Stack & IA*, *Back-End & CI/CD* e *Front-End*) para melhor navegação do usuário.
-- **Design Responsivo:** Layout adaptativo usando CSS Grid e Flexbox para celular, tablet e monitores ultrawide.
-- **Tags de Identificação:** Etiquetas coloridas destacando a stack e o foco de cada projeto.
-- **Contato Direto via WhatsApp:** Formulário de envio de mensagens integrado à API do WhatsApp.
-- **Navegação Suave:** Efeito de *smooth scroll* ao navegar entre as seções.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5:** Estrutura semântica, formulários e integração de elementos multimídia (vídeo de fundo).
-- **CSS3:** 
-  - Layouts adaptativos com **Flexbox** e **CSS Grid** (`auto-fill`).
-  - Animações e efeitos em *glassmorphism* (efeito de vidro).
-- **JavaScript (ES6+):**
-  - Manipulação de DOM e filtragem dinâmica de elementos sem recarregar a página.
-  - Lógica de captura de eventos de teclado (`keydown`) e processamento de comandos para o Mini Terminal.
-  - Formatação e redirecionamento de mensagens via API do WhatsApp.
-- **Versionamento & Ferramentas:** Git, GitHub, VS Code.
-
----
-
 ## 🚀 Como Executar o Projeto Localmente
 
 ### Pré-requisitos
@@ -74,6 +49,31 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 3. **Execute a aplicação:**
    - Dê um duplo clique no arquivo index.html para abri-lo no navegador, ou
    - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+
+---
+
+## ⚙️ Funcionalidades
+
+- **Mini Terminal Interativo (CLI Web):** Janela estilo linha de comando incorporada para executar comandos como `help`, `sobre`, `skills`, `projetos`, `github` e `clear`(ou `limpar`, que faz referência ao comando 'clear' do terminal).
+- **Filtro Dinâmico de Projetos:** Permite filtrar a galeria em tempo real por categorias (*Todos*, *Full-Stack & IA*, *Back-End & CI/CD* e *Front-End*) para melhor navegação do usuário.
+- **Design Responsivo:** Layout adaptativo usando CSS Grid e Flexbox para celular, tablet e monitores ultrawide.
+- **Tags de Identificação:** Etiquetas coloridas destacando a stack e o foco de cada projeto.
+- **Contato Direto via WhatsApp:** Formulário de envio de mensagens integrado à API do WhatsApp.
+- **Navegação Suave:** Efeito de *smooth scroll* ao navegar entre as seções.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5:** Estrutura semântica, formulários e integração de elementos multimídia (vídeo de fundo).
+- **CSS3:** 
+  - Layouts adaptativos com **Flexbox** e **CSS Grid** (`auto-fill`).
+  - Animações e efeitos em *glassmorphism* (efeito de vidro).
+- **JavaScript (ES6+):**
+  - Manipulação de DOM e filtragem dinâmica de elementos sem recarregar a página.
+  - Lógica de captura de eventos de teclado (`keydown`) e processamento de comandos para o Mini Terminal.
+  - Formatação e redirecionamento de mensagens via API do WhatsApp.
+- **Versionamento & Ferramentas:** Git, GitHub, VS Code.
 
 ---
 
