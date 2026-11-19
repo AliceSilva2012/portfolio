@@ -1,6 +1,6 @@
 # 🚀 Meu Portfólio Web | Alice Silva Pereira
 
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/0ef9aaf0-ce49-4ecb-8763-7b736b0a2ccc" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/ce9774a8-1072-47dc-a140-7acaf5474efc" />
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
