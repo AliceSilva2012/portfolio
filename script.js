@@ -115,3 +115,47 @@ function processarComando(comando) {
     // Rola o terminal para o final automaticamente
     terminalBody.scrollTop = terminalBody.scrollHeight; //pros comandos que não cabem na tela, rola a tela para o final automaticamente e nao explodir na tela
 }
+
+//=====================================================
+
+const frases = [
+    "Estudante de Desenvolvimeno Full-Stack",
+    "Rotas, IA & APIs",
+    "Automações & GitHub Actions",
+    "Desenvolvendo projetos"
+];
+
+const elementoTexto = document.getElementById('typewriter-texto');
+const prefereMenosMovimento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (prefereMenosMovimento) { 
+    elementoTexto.textContent = frases[0];
+} else {
+    let fraseIndex = 0; 
+    let letraIndex = 0;
+    let apagando = false;
+
+    function animarTexto() {
+        const fraseAtual = frases[fraseIndex];
+        
+        if (!apagando) { //apaga
+            elementoTexto.textContent = fraseAtual.substring(0, letraIndex + 1);
+            letraIndex++;
+            if (letraIndex === fraseAtual.length) {
+                apagando = true;
+                setTimeout(animarTexto, 2000);
+                return;
+            }
+        } else { //e aparece
+            elementoTexto.textContent = fraseAtual.substring(0, letraIndex - 1);
+            letraIndex--;
+            if (letraIndex === 0) {
+                apagando = false;
+                fraseIndex = (fraseIndex + 1) % frases.length;
+            }
+        }
+        setTimeout(animarTexto, apagando ? 50 : 100);
+    }
+
+    animarTexto();
+}
