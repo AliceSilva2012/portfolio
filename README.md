@@ -7,6 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Acessar_Portfólio-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white)](https://alicesilva2012.github.io/portfolio/)
 
 > Bem-vindo ao meu espaço na web! ☕ Aqui centralizo minha trajetória profissional, minhas habilidades e os projetos que desenvolvi até agora.
 
