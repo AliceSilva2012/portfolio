@@ -12,9 +12,15 @@
 
 ---
 
+## 🌎 Teste meu portfólio no seu navegador!
+
+- **Dá uma olhada:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/portfolio/)
+
+---
+
 ## 💻 Sobre o Portfólio
 
-Esse é o repositório do meu **Portfólio Web**, que funciona como meu Hub próprio e currículo interativo. O objetivo principal é compartilhar minha evolução técnica: desde a construção de interfaces front-End até o desenvolvimento **Full-Stack** (+back-end), projetos com **Node.js**, consumo de APIs de IA e esteiras de testes automatizados com **CI/CD via GitHub Actions**.
+Esse é o repositório do meu **Portfólio Web**, que funciona como meu Hub próprio e currículo interativo. O objetivo principal é compartilhar minha evolução técnica: desde a construção de interfaces Front-End até o desenvolvimento Full-Stack com **Node.js**, consumo de APIs de IA e esteiras de testes automatizados com **CI/CD via GitHub Actions**.
 
 A página possui uma identidade visual única e nostálgica (com aquela animação de fundo da tela inicial do PS2), focada em proporcionar uma navegação fluida e agradável.
 
@@ -45,12 +51,6 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 ---
 
-## 🌎 Teste meu portfólio no seu navegador!
-
-- **Dá uma olhada:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/portfolio/)
-
----
-
 ## 🚀 Como Executar o Projeto Localmente
 
 ### Pré-requisitos
@@ -63,6 +63,7 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 1. **Clone este repositório:**
    ```bash
    git clone https://github.com/AliceSilva2012/portfolio.git
+   ```
 
 2. **Acesse a pasta do projeto:**
    ```bash
@@ -71,11 +72,11 @@ A página possui uma identidade visual única e nostálgica (com aquela animaç�
 
 3. **Execute a aplicação:**
    - Dê um duplo clique no arquivo index.html para abri-lo no navegador, ou
-   - Clique com o botão direito no index.html e selecione Open with Live Server.
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
 
 ---
 
-## 📁 Estrutura do Arquivo
+## 📁 Estrutura do Projeto
 
 ```mermaid
 graph TD
