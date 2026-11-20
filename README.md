@@ -88,7 +88,7 @@ graph TD
     A --> F[img/]
     F --> G[pfp.jpeg]
     F --> H[sobre.png]
-    F --> I[projeto1.png... projeto10.png]
+    F --> I[projeto1.png... projeto11.png]
 
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
