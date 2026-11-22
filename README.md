@@ -74,24 +74,21 @@ A página possui uma identidade visual única e nostálgica (com a animação de
 ## Estrutura de Arquivos
 
 ```mermaid
-graph LR
-    Root[portfolio/] --> HTML[index.html]
-    Root --> CSS[styles.css]
-    Root --> JS[script.js]
-    Root --> Media[Assets e Mídia]
+graph TD
+    A[portfolio] --> B[index.html]
+    A --> C[styles.css]
+    A --> D[script.js]
+    A --> E[ps2.mp4]
+    A --> F[img/]
+    F --> G[pfp.jpeg]
+    F --> H[sobre.png]
+    F --> I[projeto1.png ... projeto11.png]
 
-    subgraph Media [Assets e Mídia]
-        Video[ps2.mp4]
-        ImgDir[img/] --> Pfp[pfp.jpeg]
-        ImgDir --> Sobre[sobre.png]
-        ImgDir --> Cards[projeto1.png ... projeto11.png]
-    end
-
-    style HTML fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
-    style CSS fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
-    style JS fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
-    style Video fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
-    style ImgDir fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ---
