@@ -12,9 +12,10 @@ const comandos = {
     help: "Comandos disponíveis: <strong>sobre</strong>, <strong>skills</strong>, <strong>projetos</strong>, <strong>github</strong>, <strong>eastereggs</strong>, <strong>clear</strong> <br> <strong style='color: #f83838;'>ATENÇÃO: easter eggs disponíveis, tente encontrar!</strong>",
     sobre: "Alice Silva Pereira, 14 anos. Estudante Full-Stack focada no ecossistema JavaScript, Node.js e automações de testes com GitHub Actions.",
     skills: "HTML5, CSS3, JavaScript, Node.js, Git/GitHub, GitHub Actions e consumo de REST APIs.",
+    eastereggs: "Achou que era só isso? Tente procurar mais easter eggs, tem muitos escondidos!",
     projetos: "Alguns dos meus projetos mais recentes:<br>1. J.A.R.V.I.S. (IA & Voz)<br>2. Conversa com Terminal (CLI em Node.js)<br>3. Previsão do Tempo (API Groq)<br>4. Spotify Web (iTunes API).<br> Inclusive, todos estão na seção de Projetos, se quiser dar uma olhada! <br>  style='color: #38bdf8;'",
     github: 'Meu perfil: <a href="https://github.com/AliceSilva2012" target="_blank" style="color: #38bdf8;">github.com/AliceSilva2012</a>',
-    "easter egg": "Achou que era só isso? Tente procurar mais easter eggs, tem muitos escondidos!",
+    "easter eggs": "Achou que era só isso? Tente procurar mais easter eggs, tem muitos escondidos!",
     clear: "Terminal limpo! Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis.",
     404: "Achou que ia conseguir me bugar não é? <br> Digite <strong style='color: #38bdf8;'>help</strong> para ver os comandos disponíveis.",
     // EASTER EGGS GALÁTICOS E INÉDITOS
@@ -119,7 +120,7 @@ function processarComando(comando) {
 //=====================================================
 
 const frases = [
-    "Estudante de Desenvolvimeno Full-Stack",
+    "Estudante de Desenvolvimento Full-Stack",
     "Rotas, IA & APIs",
     "Automações & GitHub Actions",
     "Desenvolvendo projetos"
