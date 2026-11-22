@@ -93,4 +93,4 @@ graph TD
 
 ---
 
-**Desenvolvido por Alice Silva Pereira**
+**Desenvolvido por Alice Silva Pereira 🚀🚀🚀🚀🚀**
