@@ -74,23 +74,24 @@ A página possui uma identidade visual única e nostálgica (com a animação de
 ## Estrutura de Arquivos
 
 ```mermaid
-flowchart TD
-    User((Visitante)) --> UI[Interface do Portfólio<br/>HTML5 + CSS3 Glassmorphism]
-    
-    UI --> BG[Vídeo de Fundo<br/>ps2.mp4]
-    UI --> Term[Mini Terminal AliceOS<br/>script.js]
-    UI --> Grid[Galeria de Projetos<br/>11 Projetos em Destaque]
-    UI --> Form[Formulário de Contato]
+graph LR
+    Root[portfolio/] --> HTML[index.html]
+    Root --> CSS[styles.css]
+    Root --> JS[script.js]
+    Root --> Media[Assets e Mídia]
 
-    Term -->|Comandos e Easter Eggs| Out[Saída Dinâmica no DOM]
-    Grid -->|Filtro por Categoria| Filter{Full-Stack / Back-End / Front-End}
-    Form -->|EncodeURI| WA[API do WhatsApp]
+    subgraph Media [Assets e Mídia]
+        Video[ps2.mp4]
+        ImgDir[img/] --> Pfp[pfp.jpeg]
+        ImgDir --> Sobre[sobre.png]
+        ImgDir --> Cards[projeto1.png ... projeto11.png]
+    end
 
-    style User fill:#8A2BE2,stroke:#fff,stroke-width:2px,color:#fff
-    style UI fill:#1572B6,stroke:#fff,stroke-width:2px,color:#fff
-    style Term fill:#F7DF1E,stroke:#333,stroke-width:2px,color:#000
-    style Grid fill:#E34F26,stroke:#fff,stroke-width:2px,color:#fff
-    style WA fill:#25D366,stroke:#fff,stroke-width:2px,color:#fff
+    style HTML fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style CSS fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style JS fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
+    style Video fill:#6c757d,stroke:#fff,stroke-width:2px,color:#fff
+    style ImgDir fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ---
