@@ -71,7 +71,7 @@ A página possui uma identidade visual única e nostálgica (com a animação de
 
 ---
 
-## Estrutura de Arquivos
+## 📁 Estrutura do Projeto
 
 ```mermaid
 graph TD
